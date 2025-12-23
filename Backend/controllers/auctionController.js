@@ -130,7 +130,7 @@ exports.updateAuction = async (req, res) => {
       .json({ success: true, message: "Auction updated.", data: product });
   } catch (error) {
     res.status(500).json({ message: "Server Error", error: error.message });
-  }
+  } 
 };
 
 //get 2 days old auction

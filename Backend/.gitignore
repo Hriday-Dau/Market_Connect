@@ -4,4 +4,4 @@
 .early.coverage
 jest.config.js
 test-report.html
-/test
+/tests

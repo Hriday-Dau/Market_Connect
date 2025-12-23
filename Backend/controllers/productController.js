@@ -17,7 +17,7 @@ exports.createProduct = async (req, res) => {
     }));
 
     const productData = {
-      ...req.body,
+      ...req.body, 
       sellerId: req.user._id,
       images: images,
     };

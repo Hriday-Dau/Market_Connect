@@ -6,7 +6,7 @@ const validate = require("../middlewares/validateSchema");
 
 const {
   createAuctionSchema,
-  updateAuctionSchema,
+  updateAuctionSchema, 
 } = require("../validations/auction");
 
 //Public

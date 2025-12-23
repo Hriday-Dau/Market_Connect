@@ -20,7 +20,7 @@ const cartSchema = new Schema(
     addedAt: {  
       type: Date,
       default: Date.now
-    }
+    } 
     
   },
   { _id: true } 

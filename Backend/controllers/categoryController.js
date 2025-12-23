@@ -10,7 +10,7 @@ exports.createCategory = async (req, res) => {
 
     if (!name || name.trim() === '') {
       return res.status(400).json({ 
-        success: false, 
+        success: false,  
         message: "Category name is required" 
       });
     }

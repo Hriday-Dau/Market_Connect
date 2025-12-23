@@ -24,7 +24,7 @@ const AuctionDetail = () => {
   useEffect(() => {
     if (id) {
       loadAuction();
-      const interval = setInterval(loadAuction, 1000);
+      const interval = setInterval(loadAuction, 120000);
       return () => clearInterval(interval);
     }
   }, [id]);

@@ -64,7 +64,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/users", userRoutes);
 
-app.use("/api/faqs", faqRoutes);
+app.use("/api/faqs", faqRoutes); 
 app.use("/api", productRoutes);
 app.use("/api/category", categoryRoutes);
 app.use("/api/reviews", reviewRoutes); 
