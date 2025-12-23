@@ -23,3 +23,4 @@ const addressSchema = new Schema(
 
 // Exporting the schema for usage in other files
 module.exports = addressSchema;
+ 

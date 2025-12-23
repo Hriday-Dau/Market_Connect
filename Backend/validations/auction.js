@@ -7,7 +7,7 @@ const createAuctionSchema = Joi.object({
   }),
 
   startTime: Joi.date().iso().required().messages({
-    'date.base': 'Start time must be a valid date.',
+    'date.base': 'Start time must be a valid date.', 
     'any.required': 'Start time is required.'
   }),
 

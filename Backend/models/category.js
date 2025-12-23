@@ -24,7 +24,7 @@ const categorySchema = new Schema(
   },
   {
     timestamps: true,
-  }
+  } 
 );
 
 categorySchema.pre("save", function (next) {

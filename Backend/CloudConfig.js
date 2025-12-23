@@ -10,7 +10,7 @@ cloudinary.config({
 
 const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
-    params: {
+    params: { 
         folder: 'Market-Connect/Products', 
         allowedFormats: ['jpeg', 'png', 'jpg'],
     }

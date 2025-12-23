@@ -18,7 +18,7 @@ const getMySales = async (req, res) => {
         $lookup: {
           from: "products",
           localField: "orderItems.product",
-          foreignField: "_id",
+          foreignField: "_id", 
           as: "prod",
         },
       },

@@ -15,7 +15,7 @@ exports.getSellerStats = async (req, res) => {
           from: "products",
           localField: "orderItems.product",
           foreignField: "_id",
-          as: "prod",
+          as: "prod", 
         },
       },
       { $unwind: "$prod" },
